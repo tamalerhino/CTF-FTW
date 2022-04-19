@@ -170,6 +170,7 @@ cat /etc/networks
 #Neighbours
 (arp -e || arp -a)
 (route || ip n)
+ip n
 
 #Iptables rules
 (timeout 1 iptables -L 2>/dev/null; cat /etc/iptables/* | grep -v "^#" | grep -Pv "\W*\#" 2>/dev/null)
