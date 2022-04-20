@@ -24,3 +24,36 @@ Then use nmap to do a nmap scan of those IP's:
 ```
 for ip in $(cat ips.txt); do nmap $ip; done
 ```
+
+
+# Scanning with Metasploit
+You can use auxilary modules to do some scanning.
+Start metasploit
+```
+msconsole
+```
+```
+search smb
+```
+look for auxilary
+
+```
+use auxiliary/scanner/smb/smb_version
+or
+use 60
+```
+use info to get info on module and usage
+```
+msf5 auxiliary(scanner/smb/smb_version) > info
+msf5 auxiliary(scanner/smb/smb_version) > options
+```
+set options wanted
+```
+set RHOSTS 192.68.4.3
+```
+run the scanner
+```
+run
+or
+exploit
+```

@@ -7,4 +7,28 @@ In Kali
 whatweb https://thesite.com
 ```
 
-#
+# Nikto - Web Vlnerability Scanner
+
+```
+nikto -h http <IP> > nikto-scan.txt
+```
+
+# Directory enumartion
+WORDLISTS: /usr/share/wordlists/dirbuster
+## DirBuster
+GUI
+```
+dirbuster&
+```
+extentions: 
+`php`,`txt`,`asp`,`aspx`,`zip`
+
+## Dirb
+```
+
+```
+
+## GoBuster
+```
+
+```
