@@ -57,3 +57,12 @@ run
 or
 exploit
 ```
+
+
+# Hashes
+
+USE hash identifier
+
+```
+hash-identifier
+```

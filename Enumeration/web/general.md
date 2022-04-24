@@ -25,10 +25,15 @@ extentions:
 
 ## Dirb
 ```
-
+dirb http://<IP>
 ```
 
 ## GoBuster
 ```
 
+```
+
+## ffuf
+```
+ffuf -w /usr/share/wordlists/dirbuster/directory-lists-2.3-medium.txt:FUZZ -u http://<IP>/FUZZ
 ```

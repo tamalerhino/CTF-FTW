@@ -29,7 +29,8 @@ Usage:
 ./linpeas.sh -a > /tmp/linpeas.txt 
 less -r /dev/shm/linpeas.txt #Read with colors
 ```
-
+## services with pspy
+pspy
 
 ## Distro?
 ```
