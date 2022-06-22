@@ -30,8 +30,9 @@ dirb http://<IP>
 
 ## GoBuster
 ```
-
+sudo gobuster dir -u http://10.129.156.21/ -w /usr/share/wordlists/dirb/common.txt
 ```
+`-x` to tell it what specific file extensions to use
 
 ## ffuf
 ```

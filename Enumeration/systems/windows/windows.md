@@ -107,3 +107,9 @@ reg query "HKLM\SYSTEM\Current\ControlSet\Services\SNMP"
 reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"
 reg query HKEY_LOCAL_MACHINE\SOFTWARE\RealVNC\WinVNC4 /v password
 ```
+
+# RDP
+use xfreerdp!
+```
+sudo xfreerdp /v:10.129.56.77 /cert:ignore /u:Administrator
+```

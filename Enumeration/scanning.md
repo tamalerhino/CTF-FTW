@@ -1,8 +1,23 @@
 # Scanning
-nmap
+
+## nmap
 ```
 nmap -T4 -A -p- <IP>
 ```
+use default scripts
+```
+nmap -sC
+```
+check versions of stuff
+```
+nmap -sV
+```
+
+no ping or if something is trying to block us
+```
+  -Pn: Treat all hosts as online -- skip host discovery
+```
+
 
 Quick script
 ```
