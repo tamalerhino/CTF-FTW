@@ -15,3 +15,8 @@ https://github.com/Dewalt-arch/pimpmykali
 4. Maintaining Access
 
 5. Cover Tracks
+
+## Resources:
+- https://github.com/S3cur3Th1sSh1t/Pentest-Tools
+- https://github.com/swisskyrepo/PayloadsAllTheThings
+- https://github.com/swisskyrepo/PayloadsAllTheThings
