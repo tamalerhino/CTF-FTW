@@ -19,4 +19,8 @@ https://github.com/Dewalt-arch/pimpmykali
 ## Resources:
 - https://github.com/S3cur3Th1sSh1t/Pentest-Tools
 - https://github.com/swisskyrepo/PayloadsAllTheThings
-- https://github.com/swisskyrepo/PayloadsAllTheThings
+- https://github.com/bigb0sss/RedTeam-OffensiveSecurity
+- https://github.com/Orange-Cyberdefense/arsenal/blob/master/mindmap/pentest_ad.png
+- https://github.com/Nobozor/MindMap--Pentest-active-directory/blob/main/Pentesting%20active%20directory.pdf
+- https://ppn.snovvcrash.rocks/
+- https://book.hacktricks.xyz/welcome/readme

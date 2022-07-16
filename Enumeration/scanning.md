@@ -1,8 +1,13 @@
 # Scanning
 
 ## nmap
+Default
 ```
 nmap -T4 -A -p- <IP>
+```
+UDP scan
+```
+nmap -sUV -F <IP>
 ```
 use default scripts
 ```
