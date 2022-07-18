@@ -24,3 +24,4 @@ https://github.com/Dewalt-arch/pimpmykali
 - https://github.com/Nobozor/MindMap--Pentest-active-directory/blob/main/Pentesting%20active%20directory.pdf
 - https://ppn.snovvcrash.rocks/
 - https://book.hacktricks.xyz/welcome/readme
+- https://www.ired.team/
