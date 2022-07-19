@@ -8,6 +8,16 @@ Watson - https://github.com/rasta-mouse/Watson
 WinPeas - https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS
 
 
+## Files
+read/print a file `type <file>`
+check permissions on a file `icacls <file>`
+
+
+## Processes
+
+## scheduled tasks
+`schtasks` to check, also the `ps` command in Powershell might work
+
 ## LDAP - Perform Windows domain enumeration via LDAP
 https://github.com/ZeroPointSecurity/Domain-Enumeration-Tool
 
