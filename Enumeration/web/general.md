@@ -6,6 +6,9 @@ In Kali
 ```
 whatweb https://thesite.com
 ```
+# scripts
+theres a `webrecon.sh` file, run it!
+
 
 # Nikto - Web Vlnerability Scanner
 
@@ -42,4 +45,53 @@ ffuf -w /usr/share/wordlists/dirbuster/directory-lists-2.3-medium.txt:FUZZ -u ht
 ## LFI
 ```
 curl 'http://{target_IP}/?file=../../../../etc/passwd'
+```
+
+## apache/nginx
+dont forget about the `.htpasswd` file!
+
+## Asset Finder
+Install assetfinder
+```
+go get -u github.com/tomnomnom/assetfinder
+```
+Run assetfinder
+```
+assetfinder tesla.com >> tesla-subs.txt
+assetfinder --subs-only tesla.com >> tesla-subs.txt
+```
+
+## Amass
+Install Amass
+```
+go install -v github.com/OWASP/Amass/v3/...@master
+```
+Use
+```
+amass enum -d tesla.com
+```
+
+## httprobe
+Check if stuff is alive
+Install 
+```
+go install github.com/tomnomnom/httprobe@latest
+```
+run
+```
+cat recon/domains.txt | httprobe
+```
+just 443
+```
+cat recon/domains.txt | httprobe -s -p https:443 | sed 's/https\?:\/\///' | tr -d ':443'
+```
+## Gowitness
+Takes a screenshot of a site
+Install
+```
+go get -u gorm.io/gorm
+go install github.com/sensepost/gowitness@latest
+```
+```
+gowitness single https://tesla.com
 ```
